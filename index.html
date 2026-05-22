@@ -416,15 +416,11 @@
     animation: fadeInRight 0.8s 0.2s ease both;
   }
   .hero-avatar {
-    width: clamp(200px, 25vw, 300px);
-    height: clamp(200px, 25vw, 300px);
-    border-radius: var(--radius-xl);
-    background: var(--bg-card);
-    border: 2px solid var(--border);
-    position: relative;
-    display: flex; align-items: center; justify-content: center;
-    overflow: hidden;
-    box-shadow: var(--shadow-glow);
+    .profile-pic{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  border-radius: var(--radius-xl);
   }
   .avatar-placeholder {
     width: 100%; height: 100%;
